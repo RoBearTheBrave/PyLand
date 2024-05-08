@@ -2,21 +2,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python Debugger: Current File",
-            "type": "debugpy",
-            "request": "launch",
-            "program": "${file}",
-            "console": "integratedTerminal"
-        },
-        {
             "name": "Run with argument",
             "type": "python",
             "request": "launch",
-            "program": "hello.py",
+            "program": "/Users/robertthibault/Projects/PyLand/FUNDAMENTALS_2/vscode_playground.py",
             "console": "integratedTerminal",
-            "args": [
-                "Erik"
-            ]
+            "args": ["Erik"]
         }
     ]
 }
